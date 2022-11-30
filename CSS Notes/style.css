@@ -1,0 +1,44 @@
+#h1 {
+    color: white;
+    background-color: rgb(101, 63, 137);
+}
+
+#h2 {
+    color: rgb(192, 192, 192);
+    background-color: rgb(129, 81, 175);
+}
+
+#h3 {
+    color: rgb(129, 129, 129);
+    background-color: rgb(153, 106, 198);
+}
+
+#h4 {
+    color: grey;
+    background-color: rgb(176, 134, 215);
+}
+
+#h5 {
+    color: rgb(81, 81, 81);
+    background-color: rgb(200, 164, 233);
+}
+
+#h6 {
+    color: black;
+    background-color: rgb(218, 196, 238);
+}
+
+/* This is applying a background color to the whole of the section with the class tag of lesson. The color attribute is being used to change the color of the font so that it doesnt get lost in the background color.
+It is important to note that class stylings start with a period white ID tags start with a hastag. This means that everything in a class will have the same thing applied to it while things with a hastag # will onlly be applied to that specific id */
+
+/* The heigh and width are making sure that the text are a different hight and width. Idk really. Its what it says it is. */
+
+.lesson {
+    width: 200%;
+    height: 200%;
+    background-color: rgb(73, 73, 134);
+    color: white;
+      /* Font-family property specifies a list of fonts to be used in order of priority */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
